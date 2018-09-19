@@ -1,0 +1,37 @@
+{
+  "name": "Track WP Mails",
+  "description": "This plugin can track all outgoing email. And update status if email is read or not.",
+  "type": "plugin",
+  "license": "GPL-3.0+",
+  "authors": [
+    {
+      "name": "Ali Shan",
+      "email": "alishanvr@gmail.com",
+      "homepage": "http://www.alishan.therightsol.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "email": "info@therightsol.com"
+  },
+  "config": {
+    "platform": {
+      "php": "5.6"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "app\\abstracts\\": "app/abstracts/",
+      "app\\backend\\": "app/backend/",
+      "app\\common\\": "app/common/",
+      "app\\frontend\\": "app/frontend/"
+    },
+    "files": [
+      "app/common/functions.php"
+    ]
+  },
+  "require": {
+  },
+  "require-dev": {
+  }
+}

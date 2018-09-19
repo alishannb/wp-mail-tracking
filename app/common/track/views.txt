@@ -1,0 +1,1 @@
+a:2:{s:21:"services@business.com";a:1:{s:10:"read_count";i:3;}s:11:"hr@fake.com";a:1:{s:10:"read_count";i:2;}}
